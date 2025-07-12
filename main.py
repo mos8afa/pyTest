@@ -1,7 +1,9 @@
-def sum():
-    a = input('enter first num:')
-    b = input('enter second num :')
-    c = int(a) + int(b)
-    return c 
-
-print(sum())
+def print():
+    a = input("enter the first num:")
+    b = input("enter the second num:")
+    a = int(a)
+    b = int(b)
+    if a == b:
+        print("There is no numbers between them")
+    elif b > a:
+        
