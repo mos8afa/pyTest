@@ -1,5 +1,4 @@
 name = "  Ab ,:CD,\tMuSTAfa, mohAmed"
-l = ["mohamed","Khaled"]
 #____________________________
 print(name.upper()) #--> بيكبر كله
 print(name.lower()) #--> بيصغر كله 
@@ -13,6 +12,7 @@ print(name.rstrip())
 #____________________
 print(name.split(",",2)) #--> بيقسم من الشمال لليمين  
 print(name.rsplit(",",2))#--> من اليمين للشمال
+l = ["mohamed","Khaled"]
 print(" ".join(l))
 #______________________________________________________
 print(name.find("MuSTAfa"))#--> بيقولك الموقع (قبلها كام ديجيت) ولو ملقاش -1
@@ -51,8 +51,7 @@ print(b.zfill(4))#--> بيبقا الطول كله 4
 print(name.zfill(50))
 print(b.center(7,"-"))
 print(name.partition(":"))
-print(name)
-print(name.expandtabs())#--> بتنحكم في المسافات اللي هتديهالك التاب
+print(name.expandtabs(1))#--> بتنحكم في المسافات اللي هتديهالك التاب
 #______________________________________________________________________
 job = "Engineer"
 age = 21
