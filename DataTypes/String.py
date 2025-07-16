@@ -21,8 +21,8 @@ print(name.count("m")) #--> case sensetive
 #________________________________________________________________________________________
 print(name.replace("m",""))
 #__________________________
-print(name.startswith("  A"))#--> المسافات بتفرق
-print(name.endswith("med"))#--> المسافات بتفرق
+print(name.startswith("  A")) #--> المسافات بتفرق
+print(name.endswith("med"))   #--> المسافات بتفرق
 
 print(name.isdigit())
 print(name.isdecimal())
@@ -47,11 +47,11 @@ print(a.decode())
 print(type(a.decode()))
 #________________________________________________
 b="7"
-print(b.zfill(4))#--> بيبقا الطول كله 4
+print(b.zfill(4))           #--> بيبقا الطول كله 4
 print(name.zfill(50))
 print(b.center(7,"-"))
 print(name.partition(":"))
-print(name.expandtabs(1))#--> بتنحكم في المسافات اللي هتديهالك التاب
+print(name.expandtabs(1))   #--> بتنحكم في المسافات اللي هتديهالك التاب
 #______________________________________________________________________
 job = "Engineer"
 age = 21

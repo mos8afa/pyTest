@@ -16,6 +16,7 @@ print(bool(()))
 print(bool({}))
 print(bool(""))
 print(bool(None))
+print(bool(5>14))
 #______________________
 print(1 or 0)
 print(1 or 1)
