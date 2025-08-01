@@ -1,8 +1,8 @@
 x = 5
 m = 2
 #_____________
-range(5)
-range(1,11,2)
+print(range(5))
+print(range(1,11,2))
 #_____________
 x / m
 x // m

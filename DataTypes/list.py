@@ -18,7 +18,7 @@ mylist.extend(x)
 mylist.remove(8)
 mylist.pop()  #--> اخر عنصر
 mylist.pop(3)
-mylist.clear()
+#mylist.clear()
 #-----------------------------
 mylist.index(5)
 mylist.count(7)
