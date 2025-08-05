@@ -9,6 +9,7 @@ while True:
     print("[5] Search for an owner by name")
     print("[6] Show all pets")
     print("[7] Show all owners")
+    print("[8] Delete pet")
     print("[0] Exit")
     print("===================================================")
     
@@ -26,15 +27,18 @@ while True:
             
         elif choice == "4":
             PetHotel.search_for_pet()
-            pass
+            
         elif choice == "5":
-        
-            pass
+            PetHotel.search_for_owner()
+            
         elif choice == "6":
-        
-            pass
+            PetHotel.show_all_pets()
+            
         elif choice == "7":
+            PetHotel.show_all_owners()
 
+        elif choice == "8":
+            PetHotel.delete_pet()
             pass
         elif choice == "0":
             print("Goodbye!")
