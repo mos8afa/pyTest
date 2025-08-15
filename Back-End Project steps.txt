@@ -21,7 +21,15 @@ How to Work on a Django Project in an Organized Manner
 - [ ] git commit -m "Add initial analysis and configure static/media settings"
 - [ ] git push
 
-3. Frontend Integration
+
+3. Detailed Project Planning
+----------------------------
+- [ ] Review frontend structure and all pages
+- [ ] Draw full project plan on paper (pages, apps, models, relations)
+- [ ] Adjust app structure if needed before backend work
+
+
+4. Frontend Integration
 -----------------------
 - [ ] Copy CSS, fonts, images, JS, and SCSS files into "static" folder in src
 - [ ] Create "templates" folder in src
@@ -33,14 +41,9 @@ How to Work on a Django Project in an Organized Manner
 - [ ] git commit -m "Integrate and organize frontend templates"
 - [ ] git push
 
-4. Detailed Project Planning
-----------------------------
-- [ ] Review frontend structure and all pages
-- [ ] Draw full project plan on paper (pages, apps, models, relations)
-- [ ] Adjust app structure if needed before backend work
 
-5. Backend Development
-----------------------
+5. Backend models design
+------------------------
 - [ ] Design models for each app
 - [ ] Register each app's models in admin.py
 - [ ] make migrations
