@@ -1,0 +1,86 @@
+Create virtual environment and project :
+    1- Create virtual environment --> virtualenv name
+    2- Activate the virtual environment --> name\scripts\activate
+    3- Install django in the virtualenv --> pip install django
+    4- Create empty project --> django-admin startproject name .
+    5- Run the server --> python manage.py runserver
+_______________________________________________________________________
+How to create admin:
+    python manage.py createsuperuser 
+_______________________________________________________________________
+How to create app:
+    python manage.py startapp name
+_______________________________________________________________________
+ ====================================
+ 📁 Django Project Structure Summary
+ ====================================
+
+ After running: django-admin startproject myproject
+
+ Project structure:
+ myproject/
+ ├── manage.py
+ ├── myproject/
+ │   ├── __init__.py
+ │   ├── settings.py
+ │   ├── urls.py
+ │   ├── asgi.py
+ │   └── wsgi.py
+
+ -------------------------------
+ 🔹 manage.py
+ - Command-line tool to manage the project.
+ - Used to runserver, create apps, make migrations, etc.
+
+ -------------------------------
+ 📁 Inner Folder: myproject/
+
+ __init__.py
+ - Marks the folder as a Python package.
+
+ settings.py
+ - Project settings: database, apps, middleware, templates, static files, etc.
+
+ urls.py
+ - Main URL routing configuration.
+
+ asgi.py
+ - Entry point for ASGI servers (for async support like WebSockets).
+ wsgi.py
+ - Entry point for WSGI servers (used in production).
+
+ ================================
+ 📁 Django App Structure (after startapp)
+ ================================
+
+ appname/
+ ├── admin.py
+ ├── apps.py
+ ├── models.py
+ ├── tests.py
+ ├── views.py
+ ├── migrations/
+ │   └── __init__.py
+ └── __init__.py
+
+ -------------------------------
+ 🔹 admin.py
+ - Register models to the Django admin panel.
+
+ 🔹 apps.py
+ - App configuration class.
+
+ 🔹 models.py
+ - Define database tables using Python classes.
+
+ 🔹 views.py
+ - Define request handlers (functions or classes).
+
+ 🔹 tests.py
+ - Write unit tests for your app.
+
+ 🔹 migrations/
+ - Contains database schema change history.
+
+ 🔹 __init__.py
+ - Makes the app a Python package.

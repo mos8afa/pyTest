@@ -1,0 +1,49 @@
+How to Work on a Django Project in an Organized Manner
+======================================================
+
+1. Project Initialization
+-------------------------
+- [ ] Create a repository on GitHub
+- [ ] Create and activate a virtual environment
+- [ ] Clone the repository into your project folder and name it "src"
+- [ ] Create a new Django project and name it "project"
+- [ ] git add .
+- [ ] git commit -m "Initialize Django project structure"
+- [ ] git push
+
+2. Initial Project Setup
+------------------------
+- [ ] Define STATIC and MEDIA settings in settings.py
+- [ ] Add frontend files to a folder named "Frontend-Template"
+- [ ] Create analysis.md for project analysis
+- [ ] After initial analysis, divide the project into basic apps
+- [ ] git add .
+- [ ] git commit -m "Add initial analysis and configure static/media settings"
+- [ ] git push
+
+3. Frontend Integration
+-----------------------
+- [ ] Copy CSS, fonts, images, JS, and SCSS files into "static" folder in src
+- [ ] Create "templates" folder in src
+- [ ] Create base.html (include navbar, footer, and common code)
+- [ ] Edit static paths in base.html file to use Django static paths
+- [ ] Create "templates" folder in each app
+- [ ] Define templates in settings.py
+- [ ] git add .
+- [ ] git commit -m "Integrate and organize frontend templates"
+- [ ] git push
+
+4. Detailed Project Planning
+----------------------------
+- [ ] Review frontend structure and all pages
+- [ ] Draw full project plan on paper (pages, apps, models, relations)
+- [ ] Adjust app structure if needed before backend work
+
+5. Backend Development
+----------------------
+- [ ] Design models for each app
+- [ ] Register each app's models in admin.py
+- [ ] make migrations
+- [ ] git add .
+- [ ] git commit -m "Add models and register them in Django admin"
+- [ ] git push
